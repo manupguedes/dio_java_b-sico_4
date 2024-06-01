@@ -1,5 +1,8 @@
 package BancoDigital2;
-
-public class ContaPoupança {
-
+public class ContaPoupança extends Conta {
+    
+    public void imprimirExtrato() {
+        System.out.println("=== Extrato Conta Poupança ===");
+        super.imprimirExtrato();
+    }
 }
